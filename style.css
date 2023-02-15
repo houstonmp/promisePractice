@@ -1,4 +1,26 @@
-sect1 {
+body {
+    display: flex;
+}
+
+.defStyle {
     flex: 1 1 0;
-    color:
+    max-width: 30%;
+    border-radius: 10px;
+    transition: all ease-in 2s;
+    padding: 5px;
+}
+
+.sect1 {
+    border: 3px solid #393e41;
+    background-color: #e94f37;
+}
+
+.sect2 {
+    border: 3px dashed #393e41;
+    background-color: #f6f7eb;
+}
+
+.sect3 {
+    border: 3px solid #393e41;
+    background-color: #3f88c5;
 }
